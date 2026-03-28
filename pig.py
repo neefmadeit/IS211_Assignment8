@@ -10,7 +10,6 @@ class Die:
     def roll(self):
         return random.randint(1, self.sides)
 
-
 class Player:
     def __init__(self, name):
         self.name = name
@@ -22,7 +21,6 @@ class Player:
     def wants_to_roll(self, turn_total):
         """Overridden by subclasses."""
         raise NotImplementedError
-
 
 class HumanPlayer(Player):
     def wants_to_roll(self, turn_total):
