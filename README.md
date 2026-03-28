@@ -1,5 +1,5 @@
 # IS211_Assignment8
-How to Run
+How to Run /n
 Normal game (human vs human)
 python3 pig.py
 
